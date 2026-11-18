@@ -1,5 +1,13 @@
 # Ustoz Toifa
 
-Maktab oʻqituvchilari uchun attestatsiyaga tayyorgarlik sayti. Hozircha bitta sahifa: ommaviy bosh sahifa va interaktiv demo savol.
+Maktab oʻqituvchilari uchun attestatsiyaga tayyorgarlik sayti. Hozircha bitta sahifa: Dilnozaning bir oqshomlik tayyorgarligi haqidagi hikoya, interaktiv demo savol, «Bugungi reja» va mashq savoli.
 
-Ishga tushirish: `index.html` faylini brauzerda oching. Qurish (build) bosqichi yoʻq: oddiy HTML, CSS va ozgina JavaScript.
+React + Vite.
+
+```bash
+npm install
+npm run dev     # http://localhost:5180
+npm run build   # dist/ papkasiga
+```
+
+Tuzilishi: `src/components/` (Header, Hero, Story, Question, Demo, TodayPlan, Faq), savollar `src/data.js` da, uslublar `src/styles.css` da.
